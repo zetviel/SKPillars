@@ -1,0 +1,39 @@
+prefix: "<gradient:#8EC200:#CBFF3B>&lСтолбы</gradient> &r&7>>"
+
+error-id: "{PREFIX} &cУказан неверный айди!"
+error-args: "{PREFIX} &cНехватает аргуметов!"
+error-save: "{PREFIX} &cОшибка сохранения схемы {name_schem}"
+error-paste: "{PREFIX} &cОшибка вставки схемы {name_schem}"
+error-cooldown: "{PREFIX} &cПопробуйте снова через некоторое время!"
+error-player-min: "&cНедостаточно игроков! Ожидание..."
+error-already-in-game: "{PREFIX} &cТы уже в игре!"
+error-map-not-founded: "{PREFIX} &cКарта не найдена!"
+error-game-not-founded: "{PREFIX} &cИгра не найдена!"
+error-region-not-selected: "{PREFIX} &cВы не выделили регион!"
+error-game-already-started: "{PREFIX} &cИгра уже идёт! Подождите пока игра закончится."
+error-game-already-not-started: "{PREFIX} &cИгра не запущенна! Дождитесь пока игра начнётся."
+
+lose: "{PREFIX} &cВы выбыли из игры!"
+save: "{PREFIX} &aВы успешно сохранили схему под названием {name_schem}"
+paste: "{PREFIX} &aВы успешно вставили схему под названием {name_schem}"
+area-saved: "{PREFIX} &aВы успешно установили зону!"
+point-saved: "{PREFIX} &aВы успешно установили точку!"
+game-win: "&6&lИгрок &e&l{player} &6&lпобедил!"
+game-item: "&aВы получили предмет: &f{nameItem}"
+game-start: "&6Игра на карте {name} начинается!"
+game-event: "&6&lИвент: &e{eventName}"
+player-join: "&7[&a+&7] &r{player} залетел в игру."
+player-leave: "&7[&4-&7] &r{player} вышел из игры."
+player-cooldown: "&aИгра начнется через {time-left} секунд!"
+
+item-leaveBed-name: "<gradient:#C90000:#D17D00>&lВыйти из игры</gradient>"
+item-leaveBed-lore:
+  - "&7        "
+  - "&7Позволяет выйти из игры"
+  - "&7        "
+
+lobby-scoreboard:
+  scoreboard-head: "&l<gradient:#E4A8FF:#4E6BFF>HEADTest</gradient>"
+  scoreboard:
+    - "&l<gradient:#E4A8FF:#4E6BFF>Wasn't head 1 up</gradient>"
+    - "&l<gradient:#E4A8FF:#4E6BFF>Wasn't head 2 down</gradient>"
